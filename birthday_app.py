@@ -68,7 +68,7 @@ body {
 # ------------------------------------------------------
 # TITLE
 # ------------------------------------------------------
-st.markdown("<div class='title fade'>🌸 A Birthday Letter for You 🌸</div>", unsafe_allow_html=True)
+st.markdown("<div class='title fade'>🌸 A Birthday Letter for My Love 🌸</div>", unsafe_allow_html=True)
 st.write("")
 
 # ------------------------------------------------------
@@ -125,7 +125,7 @@ if name.strip():
         st.markdown(
             """
             <div class='fade' style='text-align:center; margin-top:20px;'>
-                <span style='font-family:Great Vibes; font-size:40px; color:#d4426d;'>
+                <span style='font-family:Great Vibes; font-size:60px; color:#d4426d;'>
                     With Love ♥❀
                 </span>
             </div>
@@ -133,10 +133,11 @@ if name.strip():
             unsafe_allow_html=True
         )
 
-        st.success("You are deeply, wonderfully loved.")
+        st.success("Love you Forever")
 
 # ------------------------------------------------------
 # FOOTER
 # ------------------------------------------------------
 st.write("---")
 st.caption(f"Made with love • {date.today().strftime('%B %d, %Y')}")
+
