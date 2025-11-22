@@ -68,7 +68,7 @@ body {
 # ------------------------------------------------------
 # TITLE
 # ------------------------------------------------------
-st.markdown("<div class='title fade'>🌸 A Birthday Letter for My Love 💞 🌸</div>", unsafe_allow_html=True)
+st.markdown("<div class='title fade'>🌸 A Birthday Letter for My Love 🌸 💞 </div>", unsafe_allow_html=True)
 st.write("")
 
 # ------------------------------------------------------
@@ -141,5 +141,6 @@ if name.strip():
 # ------------------------------------------------------
 st.write("---")
 st.caption(f"Made with love • {date.today().strftime('%B %d, %Y')}")
+
 
 
