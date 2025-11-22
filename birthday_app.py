@@ -107,8 +107,8 @@ in their own perfect time.
 
 You are loved far beyond measure.  
 
-Happy Birthday, 
-my beautiful soul,
+Happy Birthday,
+My beautiful soul,
     Love U 💕.
 """
 
@@ -141,6 +141,7 @@ if name.strip():
 # ------------------------------------------------------
 st.write("---")
 st.caption(f"Made with love • {date.today().strftime('%B %d, %Y')}")
+
 
 
 
