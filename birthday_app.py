@@ -68,7 +68,7 @@ body {
 # ------------------------------------------------------
 # TITLE
 # ------------------------------------------------------
-st.markdown("<div class='title fade'>🌸 A Birthday Letter for My Love 🌸</div>", unsafe_allow_html=True)
+st.markdown("<div class='title fade'>🌸 A Birthday Letter for My Love 💞 🌸</div>", unsafe_allow_html=True)
 st.write("")
 
 # ------------------------------------------------------
@@ -107,8 +107,9 @@ in their own perfect time.
 
 You are loved far beyond measure.  
 
-Happy Birthday,  
-my beautiful soul.  
+Happy Birthday, 
+my beautiful soul
+    Love U 💕.
 """
 
 # ------------------------------------------------------
@@ -133,11 +134,12 @@ if name.strip():
             unsafe_allow_html=True
         )
 
-        st.success("Love you Forever")
+        st.success("💞Love you Forever💞")
 
 # ------------------------------------------------------
 # FOOTER
 # ------------------------------------------------------
 st.write("---")
 st.caption(f"Made with love • {date.today().strftime('%B %d, %Y')}")
+
 
